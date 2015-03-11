@@ -1,0 +1,85 @@
+h1 {
+color: orange;
+text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	div.mobile{
+	width: auto;
+	float: none;
+	marigin-right: 0;
+	}
+}
+
+body{
+//background-color: red;
+background-image: url(backround.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+
+#container{
+width: 900px;
+margin: 0 auto;
+//background-color: white;
+background: rgba(0, 0, 0, .5); // transparent
+padding: 30px;
+color: white;  // color of all text in the container
+}
+
+#header{}
+
+#nav {
+margin: 0;
+padding: 0;
+background-color: yellow;
+}
+	
+#nav li {
+list-style:none;
+float:left;  /* remember to clear your floats */
+padding: 0 15px 0 0;
+}
+
+#nav li a:link, #nav li a:visited {
+text-decoration: none;
+}
+
+
+
+#body {}
+
+.main{
+width:600px;
+float: left;
+}
+
+.main-inner {
+padding: 0 60px 0 0; // top left bottom right
+}
+
+.side{
+width:300px;
+float: left;
+}
+
+#footer {
+background-color: gray;
+color: #fff; //text color
+}
+
+
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%; }
+.clearfix {display:block;}
